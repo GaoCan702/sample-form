@@ -1,5 +1,3 @@
-
-
 export default function Home() {
   return (
     <div className="form-container">
@@ -9,6 +7,9 @@ export default function Home() {
             <label>厂区 <span className="required">*</span></label>
             <select required>
               <option value="">请选择</option>
+              <option value="factory1">厂区一</option>
+              <option value="factory2">厂区二</option>
+              <option value="factory3">厂区三</option>
             </select>
           </div>
 
@@ -16,6 +17,9 @@ export default function Home() {
             <label>进出地点 <span className="required">*</span></label>
             <select required>
               <option value="">请选择</option>
+              <option value="gate1">正门</option>
+              <option value="gate2">侧门</option>
+              <option value="gate3">后门</option>
             </select>
           </div>
 
@@ -40,6 +44,10 @@ export default function Home() {
             <label>车辆类型 <span className="required">*</span></label>
             <select required>
               <option value="">请选择</option>
+              <option value="truck">货车</option>
+              <option value="van">面包车</option>
+              <option value="car">轿车</option>
+              <option value="other">其他</option>
             </select>
           </div>
         </div>
